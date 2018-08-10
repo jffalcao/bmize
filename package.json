@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/jffalcao/bmize/issues"
   },
-  "homepage": "https://github.com/jffalcao/bmize#readme"
+  "homepage": "https://github.com/jffalcao/bmize#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "fitbit-node": "^2.1.0",
+    "hapi": "^17.5.3",
+    "mongoose": "^5.2.7",
+    "q": "^1.5.1"
+  }
 }
