@@ -16,6 +16,7 @@ $ docker rm $(docker ps -aq)
 $ docker images -a
 $ docker rmi <imageID>
 ```
+
 ### Running MongoDB in a Container
 
 [Running MongoDB as a Docker container](https://www.thachmai.info/2015/04/30/running-mongodb-container/)
@@ -26,6 +27,7 @@ $ docker rmi <imageID>
 $ mkdir ~/data
 $ sudo docker run -d -p 27017:27017 -v ~/data:/data/db mongo
 ```
+
 **Connecting to your MongoDB container**
 
 ```
