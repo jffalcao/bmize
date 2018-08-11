@@ -1,14 +1,26 @@
+'use strict';
+
 var personList = [
     {
+        "id": "1",
         "lname": "Falcao",
         "fname": "José Fernando",
-        "weight_Kg": "86",
         "height_cm": "172"
     },
-    {
+    {   
+        "id": "2",
         "lname": "Coulombe",
         "fname": "Chantale",
-        "weight_Kg": "50",
-        "height_cm": ""
+        "height_cm": "158"
     }    
-]
+];
+
+module.exports = [
+    {
+        method: 'GET',
+        path: '/member',
+        handler: (request, h) => {
+            return 'Members root page';
+        }
+    }
+];
