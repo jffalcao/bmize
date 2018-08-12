@@ -11,13 +11,14 @@
     "type": "git",
     "url": "git+https://github.com/jffalcao/bmize.git"
   },
-  "author": "",
+  "author": "José Fernando Falcao",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jffalcao/bmize/issues"
   },
   "homepage": "https://github.com/jffalcao/bmize#readme",
   "dependencies": {
+<<<<<<< HEAD
     "hapi": "^11.0.0",
     "mongoose": "^4.7",
     "fitbit-node": "^2.0",
@@ -25,4 +26,12 @@
     "crypto": "^0.0.3"
   },
   "devDependencies": {}
+=======
+    "crypto": "^1.0.1",
+    "fitbit-node": "^2.1.0",
+    "hapi": "^17.5.3",
+    "mongoose": "^5.2.7",
+    "q": "^1.5.1"
+  }
+>>>>>>> 48aa3b01c6ef62b271d21c793006246a490a391f
 }
