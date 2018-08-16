@@ -2,9 +2,10 @@
   "name": "bmize",
   "version": "1.0.0",
   "description": "### TODO",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,10 +18,11 @@
   },
   "homepage": "https://github.com/jffalcao/bmize#readme",
   "dependencies": {
-    "crypto": "^1.0.1",
-    "fitbit-node": "^2.1.0",
-    "hapi": "^17.5.3",
-    "mongoose": "^5.2.7",
-    "q": "^1.5.1"
-  }
+    "hapi": "^11.0.0",
+    "mongoose": "^4.7",
+    "fitbit-node": "^2.0",
+    "q": "^1.4.1",
+    "crypto": "^0.0.3"
+  },
+  "devDependencies": {}
 }
