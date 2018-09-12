@@ -3,7 +3,7 @@
 const Hapi = require('hapi');
 
 const routes = {};
-routes.index = require('./routes/index');
+routes.index = require('./routes');
 
 const server = Hapi.server({
     host: 'localhost',

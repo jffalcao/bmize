@@ -37,7 +37,7 @@ module.exports = [
         method: 'GET',
         path: '/wh/',
         handler: (request, reply) => {
-            reply("Member root page");
+            return 'Member root page';
         }
     }
 ];
